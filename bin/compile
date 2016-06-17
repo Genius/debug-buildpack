@@ -5,7 +5,6 @@ set -x
 
 ls bin
 ls $1/bin
-export PATH="$PATH:$1/bin"
 echo $PATH
 which phantomjs
 phantomjs --version
