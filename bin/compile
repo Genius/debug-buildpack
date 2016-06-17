@@ -5,6 +5,7 @@ set -x
 
 ls bin
 ls $1/bin
+. "$1/.profile.d/phantomjs.sh"
 echo $PATH
 which phantomjs
 phantomjs --version
