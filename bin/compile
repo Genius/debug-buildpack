@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-echo "-----> Nothing to do."
+set -x
+
+ls bin
+ls $1/bin
+ls $2/bin
+which phantomjs
+phantomjs --version
