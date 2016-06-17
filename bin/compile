@@ -5,6 +5,7 @@ set -x
 
 ls bin
 ls $1/bin
+cp -v $1/bin/phantomjs /app/bin/phantomjs
 echo $PATH
 which phantomjs
 phantomjs --version
